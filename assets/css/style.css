@@ -17,18 +17,24 @@ body {
 
 /* Header Styles */ 
 header {
-    background-color: blue;
+    background-color: #385E72;
     z-index: 99;
-    width: 100%;
+    width:100%;
+}
+
+#logo {
+    width: 250px;
+    margin: 10px 10px;
 }
 
 /* Main Styles */
 main {
+    /* Make main element take up screen and push footer down */
     flex: 1 0 auto;
-    background-color: orange;
+    background-color: White;
 }
 
 /* Footer Styles */
 footer {
-    background-color: pink;
+    background-color: #385E72;
 }
