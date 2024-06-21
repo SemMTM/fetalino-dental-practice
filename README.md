@@ -1,6 +1,28 @@
+# Fetalino Dental Practice
+
+The Fetalino Dental Practice webiste is a site for a dental practice trying to showcase its available services to the public.
+
+Users of the site will be able to find all of the necessary information regarding the dental practice, such as: its location, opening times, available treatments, information on the team, images of the practice, multiple ways to contact the practice, dental plans, reviews, images of other paitence results, certifications etc. 
+
+The site is targetted towards anyone in the Bristol area looking for dental services.
+
+## Features
+
+
+
+
+
+
+
+
+
+
+
+
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome USER_NAME,
+Welcome Osama Hendawi,
 
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
