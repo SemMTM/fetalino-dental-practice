@@ -1,0 +1,34 @@
+/* Import for google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Override defaiult styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header Styles */ 
+header {
+    background-color: blue;
+    z-index: 99;
+    width: 100%;
+}
+
+/* Main Styles */
+main {
+    flex: 1 0 auto;
+    background-color: orange;
+}
+
+/* Footer Styles */
+footer {
+    background-color: pink;
+}
