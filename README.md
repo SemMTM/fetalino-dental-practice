@@ -12,8 +12,9 @@ The site is targetted towards anyone in the Bristol area looking for dental serv
 
 ## Credits
 
-#### Favicon
-Icon from Fontawesome was used as the favicon and I used https://realfavicongenerator.net/svg-favicon/ to generate the images and code.
+#### Content
+- Icon from Fontawesome was used as the favicon and I used https://realfavicongenerator.net/svg-favicon/ to generate the images and code.
+- Header nav side bar for mobile was taken from thye CI Love Running Project
 
 
 

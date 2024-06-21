@@ -13,18 +13,79 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    /* Generic project styles */
+    color: #1a1a1a;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-style: normal;  
 }
 
-/* Header Styles */ 
+/* Header*/ 
 header {
     background-color: #385E72;
     z-index: 99;
     width:100%;
+    display: flex;
+    align-items: baseline; 
+    justify-content: space-between;
+    position: fixed;
+    box-shadow: 0 2px 2px #797979;
+    padding: 0 0.5rem;
 }
 
 #logo {
     width: 250px;
     margin: 10px 10px;
+}
+
+#menu > li {
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #385E72;
+    width: 100%;
+    text-align: left;
+    box-shadow: 0 2px 2px #797979;
+    padding: 0 1rem;
+    left: 0;
+    display: none;
+    top: 100%;
+    box-shadow: 0 2px 2px #797979;
+}
+
+/* Nav Toggle */
+#nav-toggle:checked~nav{
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+    align-self: center;
+}
+
+/* Nav bar styling */
+#menu {
+    font-size: 110%;
+    letter-spacing: 2px;
+    list-style-type: none;
+    margin-bottom: 1em;
+}
+
+header i {
+    color: #ffffff;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 /* Main Styles */
