@@ -20,6 +20,13 @@ body {
     font-style: normal;  
 }
 
+p {
+    color: #1a1a1a;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-style: normal; 
+}
+
 /* Header*/ 
 header {
     background-color: #385E72;
@@ -34,8 +41,8 @@ header {
 }
 
 #logo {
-    width: 250px;
-    margin: 10px 10px;
+    width: 200px;
+    margin: 10px 5px;
 }
 
 #menu > li {
@@ -98,4 +105,34 @@ main {
 /* Footer Styles */
 footer {
     background-color: #385E72;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+footer p {
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-style: normal; 
+}
+
+footer h4 {
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-style: bold; 
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+
+footer i {
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+footer div {
+    padding: 1em 1em;
+}
+
+#social-icons i {
+    margin: 0px 5px;
 }

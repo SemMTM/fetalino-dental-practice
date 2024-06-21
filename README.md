@@ -15,6 +15,7 @@ The site is targetted towards anyone in the Bristol area looking for dental serv
 #### Content
 - Icon from Fontawesome was used as the favicon and I used https://realfavicongenerator.net/svg-favicon/ to generate the images and code.
 - Header nav side bar for mobile was taken from thye CI Love Running Project
+- Help on embedding google map to footer: https://docs.presscustomizr.com/article/206-integrating-a-google-map-of-your-headquarter-in-the-footer-of-the-customizr-theme
 
 
 
