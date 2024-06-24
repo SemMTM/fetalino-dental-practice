@@ -100,7 +100,33 @@ main {
     /* Make main element take up screen and push footer down */
     flex: 1 0 auto;
     background-color: White;
+    padding-top: 90px;
 }
+
+#home-banner {
+    text-align: center;
+}
+
+/* Home Drop Down Styles */
+#dropdown-inner {
+    width: 300px;
+    text-align: center;
+    position: absolute;
+    display: none;
+}
+
+#home-dropdown:checked~div{
+    display: block;
+}
+
+#home-dropdown {
+    display: none;
+}
+
+#home-dropdown-label {
+    
+}
+
 
 /* Footer Styles */
 footer {
