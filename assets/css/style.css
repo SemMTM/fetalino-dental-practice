@@ -109,10 +109,12 @@ main {
 
 /* Home Drop Down Styles */
 #dropdown-inner {
-    width: 300px;
+    width: 100%;
     text-align: center;
     position: absolute;
     display: none;
+    margin-top: 15px;
+    background-color: white;
 }
 
 #home-dropdown:checked~div{
@@ -123,8 +125,16 @@ main {
     display: none;
 }
 
-#home-dropdown-label {
-    
+.home-dropdown-label {
+    padding: 8px 80px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#dropdown-home {
+    width: 100%;
+    align-self: center;
+    margin: 20px 0px;
 }
 
 
