@@ -162,15 +162,40 @@ main {
 /* Hero Image Styles */
 .hero-image-overlay {
     position: absolute;
-    background: rgba(199, 199, 199, 0.356);
+    background: rgba(104, 104, 104, 0.356);
     width: 100%;
-    height: 350px;
+    height: 450px;
 }
 
 .hero-image {
     width: 100%;
-    height: 350px;
+    height: 450px;
     background: url("../images/pexels-cedric-fauntleroy-4270362\ \(1\).jpg") no-repeat center center/cover;
+}
+
+/* Hero Image Text Styles */
+#welcome-message h2, #welcome-message p {
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+    color: white;
+}
+
+#welcome-message {
+    position: absolute;
+    z-index: 97;
+}
+
+#welcome-message p {
+    font-weight: 500;
+}
+
+#welcome-message h2 {
+    font-size: 30px;
+}
+
+#hero-message {
+    margin : 20px 15px 20px 15px;
+    font-size: 16px;
 }
 
 /* Treatments section styles */
@@ -251,6 +276,11 @@ main {
     flex-direction: column;
 }
 
+.contact-homepage h4 {
+    font-size: 25px;
+    margin: 0 15px 20px 15px;
+}
+
 .contact-homepage div {
     margin-bottom: 20px;
 }
@@ -295,6 +325,41 @@ main {
 
 #contact-opening-hours {
     align-self: center;
+}
+
+/* Certifications Section Styles */
+#certification-section {
+    padding: 15px 15px 0px 15px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.certifications {
+    width: 90px;
+    height: 90px;
+}
+
+#certification1 {
+    background: url("../images/bestdentistryawardslogo.png") no-repeat center center/contain;
+}
+
+#certification2 {
+    background: url("../images/Dentistry-Awards-2019-Finalist.jpg") no-repeat center center/contain;
+}
+
+#certification3 {
+    background: url("../images/PDA18-Winner-MIP-WWOPTZ.png") no-repeat center center/contain;
+}
+
+#certification4 {
+    background: url("../images/PDA_22-Winner-PCSWW-e1669641931523.webp") no-repeat center center/contain;
+}
+
+#certification5 {
+    background: url("../images/TDA_23-Overall-Winner_Patient-Care-1.webp") no-repeat center center/contain;
 }
 
 /* Footer Styles */
@@ -344,4 +409,16 @@ footer table {
 
 #footer-opening-hours {
     align-self: center;
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
 }
