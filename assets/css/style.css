@@ -337,6 +337,16 @@ main {
     justify-content: center;
 }
 
+#certs-title {
+    padding: 10px 15px 10px 15px;
+    text-align: center;
+}
+
+#certs-title h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
 .certifications {
     width: 90px;
     height: 90px;
@@ -413,12 +423,47 @@ footer table {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-    /* Header */
+    .treatments-home {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .treatments {
+        max-width: 350px;
+    }
+
+    .treatments-image-overlay {
+        max-width: 350px;
+    }
+}
+
+/* Media query: laptops and larger (1024px and up) */
+@media screen and (min-width: 1024px) {
+    /* Header */  
     nav {
         display: block;
         position: relative;
         box-shadow: none;
-        width: fit-content;
+        width: 80%;
         padding-right: 1rem;
+        vertical-align: baseline;
     }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+        display: inline-block;
+    }
+
+    #menu a {
+        font-size: 14px;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
 }
