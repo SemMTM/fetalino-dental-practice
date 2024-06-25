@@ -203,10 +203,15 @@ main {
 .treatments-desc {
     position: absolute;
     z-index: 98;
+    font-size: 22px;
+    color: white;
+    margin-top: 230px;
+    margin-left: 15px;
+    padding-right: 30px;
 }
 
 .treatments-image-overlay {
-    background: rgba(199, 199, 199, 0.356);
+    background: rgba(116, 116, 116, 0.35);
     position: absolute;
     width: 80%;
     height: 300px;
@@ -238,7 +243,59 @@ main {
     height: 100%;
 }
 
+/* Contact Section Styles */
+.contact-homepage {
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
 
+.contact-homepage div {
+    margin-bottom: 20px;
+}
+
+.contact-homepage form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact-homepage input {
+    text-align: center;
+    width: 80%;
+    height: 40px;
+    border-radius: 9px;
+    margin: 8px 0 8px 0;
+    text-transform: uppercase;
+    border-width: 1px;
+}
+
+#query {
+    width: 80%;
+    padding: 10px 10px;
+    margin-top: 10px;
+}
+
+#query-label {
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+#submit {
+    width: 130px;
+    height: 50px;
+    background-color: #385E72;
+    color: white;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+#contact-opening-hours {
+    align-self: center;
+}
 
 /* Footer Styles */
 footer {

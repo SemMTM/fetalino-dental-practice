@@ -48,6 +48,8 @@
               <br>
               <p><i class="fa-solid fa-envelope"></i> lj@fetalinodentistry.com</p>
             </p>
+
+            <!-- Home page drop down -->
             <div id="dropdown-home">
                 <p id="dropdown-title">I would like to:</p>
                 <br>
@@ -63,44 +65,125 @@
                     </ol>
                 </div>
             </div>
+
+            <!-- Hero Image -->
             <div class="hero-image">
                 <div class="hero-image-overlay"></div>
             </div>
         </div>>
+
+        <!-- Treatments Section -->
         <div class="treatments-home">
             <div class="treatments-title">
                 <h5>Dental Treatments</h5>
             </div>
+
             <div class="treatments">
                 <div class="treatments-desc">
-                    <h4>Teeth Whitening</h4>
+                    <h4>Teeth Whitening - £400</h4>
                 </div>
-                <div class="treatments-image-overlay"></div>
+                <div onclick="window.location.href='https://movingtomars.co.uk';" class="treatments-image-overlay"></div>
                 <div class="treatments-image1"></div>
                 
             </div>
+
             <div class="treatments">
-                <div class="treatments-image-overlay"></div>
+                <div class="treatments-desc">
+                    <h4>Dental Hygiene - £80</h4>
+                </div>
+                <div onclick="window.location.href='https://movingtomars.co.uk';" class="treatments-image-overlay"></div>
                 <div class="treatments-image2"></div>
-                <div class="treatments-desc"></div>
             </div>
+
             <div class="treatments">
-                <div class="treatments-image-overlay"></div>
+                <div class="treatments-desc">
+                    <h4>Root Canal Treatment - Starting from £199</h4>
+                </div>
+                <div onclick="window.location.href='https://movingtomars.co.uk';" class="treatments-image-overlay"></div>
                 <div class="treatments-image3"></div>
-                <div class="treatments-desc"></div>
             </div>
+
             <div class="treatments">
-                <div class="treatments-image-overlay"></div>
+                <div class="treatments-desc">
+                    <h4>Braces</h4>
+                </div>
+                <div onclick="window.location.href='https://movingtomars.co.uk';" class="treatments-image-overlay"></div>
                 <div class="treatments-image4"></div>
-                <div class="treatments-desc"></div>
             </div>
         </div>
-        <div id="contact-home">
 
-        </div>
-        <div id="certification">
+        <!-- Contact Section -->
+        <section>
+            <div class="contact-homepage">
+                <h4>Get in touch</h4>
+                <form action="https://formdump.codeinstitute.net" method="POST">
+                    <input type="text" name="first-name" id="first-name" placeholder="First Name" required>
+                    <input type="text" name="last-name" id="last-name" placeholder="Last Name" required>
+                    <input type="email" name="email" id="email" placeholder="Email Address" required>
+                    <input type="number" name="phone-number" id="phone-number" placeholder="Phone Number" required>
+                    <label id="query-label" for="query">How can we help you?</label>
+                    <textarea id="query" name="query" rows="5" cols="30"></textarea>
+                    <input type="submit" name="submit" value="submit" id="submit">
+                </form>
 
-        </div>
+                <div id="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9943.89743777403!2d-2.6140469128417974!3d51.458627199999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48718e764753c5c1%3A0x792a0e2da6abc42e!2sUniversity%20of%20Bristol%20Dental%20Hospital!5e0!3m2!1sen!2suk!4v1718984417342!5m2!1sen!2suk" 
+                    width="90%" height="200" style="border:0;" allowfullscreen="" loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                
+                <div>
+                    <h4>Contact:</h4>
+                    <p><i class="fa-solid fa-phone"></i> 01234567891</p>
+                    <p><i class="fa-solid fa-envelope"></i> lj@fetalinodentistry.com</p>
+                </div>
+
+                <div id="contact-opening-hours">
+                    <h4>Opening Hours:</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th scope="col">Day</th>
+                                <th scope="col">Time</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Monday</td>
+                                <td>9am - 5pm</td>
+                            </tr>
+                            <tr>
+                                <td>Tuesday</td>
+                                <td>9am - 5pm</td>
+                            </tr>
+                            <tr>
+                                <td>Wednesday</td>
+                                <td>9am - 5pm</td>
+                            </tr>
+                            <tr>
+                                <td>Thursday</td>
+                                <td>9am - 5pm</td>
+                            </tr>
+                            <tr>
+                                <td>Friday</td>
+                                <td>9am - 5pm</td>
+                            </tr>
+                            <tr>
+                                <td>Saturday</td>
+                                <td>10am - 3pm</td>
+                            </tr>
+                            <tr>
+                                <td>Sunday</td>
+                                <td>Closed</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div id="certification">
+            </div>
+        </section>
     </main>
 
     <!-- Footer -->
@@ -112,11 +195,13 @@
                Bristol, <br>
                BS1 2LY</p>
         </div>
+
         <div id="footer-contact">
             <h4>Contact:</h4>
             <p><i class="fa-solid fa-phone"></i> 01234567891</p>
             <p><i class="fa-solid fa-envelope"></i> lj@fetalinodentistry.com</p>
         </div>
+
         <div id="social-icons">
             <h4>Socials:</h4>
             <a href="https://www.facebook.com/" target="_blank"  
@@ -126,11 +211,13 @@
             aria-label="Visit our instagram page (open in new tab).">
                 <i class="fa-brands fa-instagram"></i></a>
         </div>
+
         <div id="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9943.89743777403!2d-2.6140469128417974!3d51.458627199999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48718e764753c5c1%3A0x792a0e2da6abc42e!2sUniversity%20of%20Bristol%20Dental%20Hospital!5e0!3m2!1sen!2suk!4v1718984417342!5m2!1sen!2suk" 
             width="90%" height="200" style="border:0;" allowfullscreen="" loading="lazy" 
             referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
+
         <div id="footer-opening-hours">
             <h4>Opening Hours:</h4>
             <table>
@@ -172,6 +259,7 @@
                 </tbody>
             </table>
         </div>
+
         <div id="copyright">
             <p>© Fetalino Dentistry Ltd</p>
         </div>
