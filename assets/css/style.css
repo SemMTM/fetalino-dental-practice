@@ -261,6 +261,10 @@ main {
     align-self: center;
 }
 
+.treatments-image-overlay:hover {
+    background: rgba(116, 116, 116, 0.55);
+}
+
 /* Treatments Section Images */
 .treatments-image1 {
     background: url("../images/pexels-shiny-diamond-3762408.jpg") no-repeat center center/cover;
@@ -468,7 +472,12 @@ footer table {
     
     .contact-home-resize {
         max-width: 350px;
-    }    
+    }
+
+    .contact-homepage form {
+        width: 550px;
+        align-self: center;
+    }
 
     /* Footer */
     .footer-ad-con {
@@ -512,13 +521,6 @@ footer table {
         display: none;
     }
 
-    /* Footer */
-    footer {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
     /* Main */
     main {
         margin-top: 30px;
@@ -546,4 +548,30 @@ footer table {
     .hero-image {
         margin-top: 25px;
     }
+
+    #welcome-message {
+        width: 100%;
+        height: 450px;
+        padding-top: 70px;
+    }
+
+    #hero-message {
+        display: flex;
+        justify-content: center;
+    }
+
+    #hero-message p {
+        max-width: 70%;
+        align-self: center;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    /* Footer */
+    footer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
 }
