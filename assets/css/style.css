@@ -50,6 +50,10 @@ header {
     color: #ffffff;
 }
 
+.active {
+    border-bottom: 1px solid #ffffff;
+}
+
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
@@ -111,6 +115,9 @@ main {
     flex: 1 0 auto;
     background-color: White;
     padding-top: 90px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 #home-banner {
@@ -175,6 +182,7 @@ main {
     background: rgba(104, 104, 104, 0.356);
     width: 100%;
     height: 450px;
+    max-width: 1300px;
 }
 
 .hero-image {
@@ -493,6 +501,11 @@ footer table {
 
 /* Media query: laptops and larger (1024px and up) */
 @media screen and (min-width: 1024px) {
+    /* Body */
+    body > main {
+        align-self: center;
+    }
+    
     /* Header */  
     nav {
         display: block;
@@ -501,6 +514,10 @@ footer table {
         width: fit-content;
         padding-right: 1rem;
         margin-top: 10px;
+    }
+
+    #menu a:hover {
+        border-bottom: 1px solid #ffffff;
     }
 
     #menu {
@@ -524,6 +541,7 @@ footer table {
     /* Main */
     main {
         margin-top: 20px;
+        max-width: 1300px;
     }
 
     #dropdown-home {
@@ -547,12 +565,14 @@ footer table {
 
     .hero-image {
         margin-top: 25px;
+        max-width: 1300px;
     }
 
     #welcome-message {
         width: 100%;
         height: 450px;
         padding-top: 70px;
+        max-width: 1300px;
     }
 
     #hero-message {
