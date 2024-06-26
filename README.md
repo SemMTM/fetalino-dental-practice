@@ -8,7 +8,7 @@ The site is targetted towards anyone in the Bristol area looking for dental serv
 
 ## Features
 
-
+## Bugs
 
 ## Credits
 
