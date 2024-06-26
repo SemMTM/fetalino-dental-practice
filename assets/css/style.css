@@ -33,7 +33,7 @@ header {
     z-index: 99;
     width:100%;
     display: flex;
-    align-items: baseline; 
+    align-items: center; 
     justify-content: space-between;
     position: fixed;
     box-shadow: 0 2px 2px #797979;
@@ -81,7 +81,6 @@ nav {
 /* Nav bar styling */
 #menu {
     font-size: 110%;
-    letter-spacing: 2px;
     list-style-type: none;
     margin-bottom: 1em;
 }
@@ -499,13 +498,14 @@ footer table {
         display: block;
         position: relative;
         box-shadow: none;
-        width: 80%;
+        width: fit-content;
         padding-right: 1rem;
-        vertical-align: baseline;
+        margin-top: 10px;
     }
 
     #menu {
         display: flex;
+        margin-bottom: 5px;
     }
 
     #menu > li {
@@ -523,7 +523,7 @@ footer table {
 
     /* Main */
     main {
-        margin-top: 30px;
+        margin-top: 20px;
     }
 
     #dropdown-home {
