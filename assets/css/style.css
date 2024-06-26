@@ -518,4 +518,32 @@ footer table {
         flex-wrap: wrap;
         justify-content: center;
     }
+
+    /* Main */
+    main {
+        margin-top: 30px;
+    }
+
+    #dropdown-home {
+        max-width: 350px;
+    }
+
+    #dropdown-inner {
+        max-width: 350px;
+    }
+
+    #dropdown-inner li {
+        list-style: none;
+    }
+
+    .contact-and-dropdown {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .hero-image {
+        margin-top: 25px;
+    }
 }
