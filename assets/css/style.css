@@ -20,6 +20,11 @@ body {
     font-style: normal;  
 }
 
+img {
+    max-height: 180%;
+    height: auto;
+}
+
 p {
     color: #1a1a1a;
     font-family: "Raleway", sans-serif;
@@ -100,14 +105,15 @@ nav a {
 
 /* Main Styles */
 .button {
-    padding: 15px 30px 15px 30px;
+    padding: 12px 20px 12px 20px;
     background-color: #385E72;
     color: white;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
     border-radius: 15px;
     text-decoration: none;
+    max-width: 150px;
 }
 
 main {
@@ -295,6 +301,49 @@ main {
     background: url("../images/pexels-cottonbro-6502309.jpg") no-repeat center center/cover;
     width: 100%;
     height: 100%;
+}
+
+/* Team and practice section */
+#team-and-practice {
+    width: 90%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#team-and-practice h5 {
+    font-size: 22px;
+    color: #385E72;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    border-bottom: 1px solid #385E72;
+}
+
+#team-and-practice p {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+#team-and-practice img {
+    margin-bottom: 20px;
+}
+
+.practice-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#team-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.find-out-more {
+    margin-bottom: 20px;
 }
 
 /* Contact Section Styles */
@@ -531,7 +580,7 @@ footer table {
     }
 
     #menu a {
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .nav-toggle-label {
@@ -585,6 +634,21 @@ footer table {
         align-self: center;
         font-size: 18px;
         font-weight: 400;
+    }
+
+    /* Main - Certifications Secion */
+
+    .certifications {
+        width: 130px;
+        height: 130px;
+    }
+
+    #certs-title p {
+        font-size: 20px;
+    }
+
+    #certs-title h4 {
+        font-size: 26px;
     }
 
     /* Footer */
