@@ -477,6 +477,57 @@ main {
     font-size: 16px;
 }
 
+/* Treatments Page Styles */
+.treatments-page-list {
+    padding: 15px 5%;
+}
+
+.treatments-page-list h5 {
+    font-size: 25px;
+    color: #385E72;
+    border-bottom: 1px solid #385E72;
+    padding: 10px 0px 10px 0px;
+}
+
+.treatments-list-container {
+    padding: 15px 0px 15px 0px;
+}
+
+.treatment-list {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #385E72;
+}
+
+.treatment-list h5 {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #385E72;
+}
+
+.treatment-list li {
+    list-style: none;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+.treatment-list h6 {
+    font-size: 19px;
+    line-height: 2em;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #385E72;
+}
+
+.treatment-list a:hover {
+    border-bottom: 1px solid #385E72;
+}
+
+.treatment-list a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
 /* Footer Styles */
 footer {
     background-color: #385E72;
