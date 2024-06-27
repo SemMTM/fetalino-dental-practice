@@ -345,6 +345,7 @@ main {
 
 .find-out-more {
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 /* Contact Section Styles */
@@ -520,6 +521,13 @@ footer table {
         max-width: 350px;
     }
 
+    /* Main - Hero image */
+    .hero-image {
+        width: 100%;
+        height: 450px;
+        background: url("../images/pexels-shvetsa-3845653.jpg") no-repeat center center/cover;
+    }
+
     /* Main - Contact Home */
     .contact-open-num {
         flex-direction: row;
@@ -541,6 +549,16 @@ footer table {
         flex-wrap: wrap;
         flex-direction: row;
         width: 100%;
+        padding: 2em 2em;
+    }
+
+    .practice-image, .team-image {
+        height: 450px;
+        padding: 10px 15px;
+    }
+
+    .practice-desc, .team-desc {
+        margin: 15px 15px;
     }
 
     #homepage-team, #homepage-practice {
@@ -550,12 +568,6 @@ footer table {
     .team-desc, .practice-desc {
         height: 200px;
     }
-/*
-    .practice-image, .team-image{
-        overflow: hidden;
-        width: 100%;
-        height: 400px;
-    } */
 
     /* Footer */
     .footer-ad-con {
@@ -652,6 +664,10 @@ footer table {
         align-self: center;
         font-size: 18px;
         font-weight: 400;
+    }
+
+    .practice-image, .team-image {
+        height: 600px;
     }
 
     /* Main - Certifications Secion */

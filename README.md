@@ -18,6 +18,7 @@ The site is targetted towards anyone in the Bristol area looking for dental serv
 - Help on embedding google map to footer: https://docs.presscustomizr.com/article/206-integrating-a-google-map-of-your-headquarter-in-the-footer-of-the-customizr-theme
 - Help with applying an overlay on the Hero image: https://blog.logrocket.com/guide-image-overlays-css/
 - Making overlay clickable to another link: https://www.geeksforgeeks.org/how-to-create-an-html-button-that-acts-like-a-link/
+- Multiple images from Pexels used
 
 
 
