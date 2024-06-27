@@ -201,6 +201,13 @@ main {
     max-width: 1300px;
 }
 
+.hero-image-contact {
+    width: 100%;
+    height: 450px;
+    background: url("../images/pexels-cedric-fauntleroy-4269944.jpg") no-repeat center center/cover;
+    margin-top: 20px;
+}
+
 .hero-image {
     width: 100%;
     height: 450px;
@@ -210,7 +217,7 @@ main {
 /* Hero Image Text Styles */
 #welcome-message h2, #welcome-message p {
     text-align: center;
-    padding: 15px 15px 15px 15px;
+    padding: 15px 15px;
     color: white;
 }
 
@@ -225,6 +232,7 @@ main {
 
 #welcome-message h2 {
     font-size: 30px;
+    margin-top: 20px;
 }
 
 #hero-message {
@@ -463,6 +471,12 @@ main {
     background: url("../images/TDA_23-Overall-Winner_Patient-Care-1.webp") no-repeat center center/contain;
 }
 
+/* Contact Us Page Styles */
+#contact-message {
+    margin : 0px 15px 20px 15px;
+    font-size: 16px;
+}
+
 /* Footer Styles */
 footer {
     background-color: #385E72;
@@ -513,6 +527,13 @@ footer table {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+    /* Quick Nav */
+    #welcome-message h2, #welcome-message p {
+        text-align: center;
+        padding: 15px 20%;
+        color: white;
+    }
+    
     .treatments-home {
         flex-direction: row;
         flex-wrap: wrap;
