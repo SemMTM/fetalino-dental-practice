@@ -32,6 +32,11 @@ p {
     font-style: normal; 
 }
 
+.hidden-heading {
+    visibility: hidden;
+    font-size: 2px;
+}
+
 /* Class Styles */
 .block-panel {
     overflow: hidden;
