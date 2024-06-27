@@ -566,7 +566,7 @@ footer table {
     }
 
     .contact-homepage form {
-        width: 550px;
+        width: 500px;
         align-self: center;
     }
 
@@ -601,6 +601,12 @@ footer table {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
+    }
+
+    .contact-container1 {
+        align-self: center;
+        flex-direction: column;
+        display: flex;
     }
 }
 
@@ -716,6 +722,20 @@ footer table {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    /* Contact Page */
+    #contact-page-main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contact-container1 {
+        max-width: 50%;
+        align-self: center;
+        display: flex;
     }
     
 }
