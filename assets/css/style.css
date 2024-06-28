@@ -536,6 +536,12 @@ main {
     text-transform: uppercase;
 }
 
+.treatments-main-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .treatments-main-image img {
     object-fit: cover;
     width: 100%;
@@ -829,6 +835,22 @@ footer table {
         max-width: 50%;
         align-self: center;
         display: flex;
+    }
+
+    /* Treatments Page */
+    .treatments-inner {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .row50 {
+        max-width: 50%;
+        flex-basis: 50%;
+    }
+
+    .treatments-main-image img {
+        display: none;
     }
     
 }
