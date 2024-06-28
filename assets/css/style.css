@@ -18,6 +18,7 @@ body {
     font-family: "Raleway", sans-serif;
     font-weight: 300;
     font-style: normal;  
+    line-height: 1.5;
 }
 
 img {
@@ -478,9 +479,6 @@ main {
 }
 
 /* Treatments Page Styles */
-.treatments-page-list {
-    padding: 15px 5%;
-}
 
 .treatments-page-list h5 {
     font-size: 25px;
@@ -490,12 +488,20 @@ main {
 }
 
 .treatments-list-container {
-    padding: 15px 0px 15px 0px;
+    padding: 15px 10px 15px 10px;
+}
+
+.treatments-container {
+    width: 100%;
 }
 
 .treatment-list {
     padding-bottom: 10px;
+}
+
+.treatments-list1 {
     border-bottom: 1px solid #385E72;
+    padding-bottom: 15px;
 }
 
 .treatment-list h5 {
@@ -526,6 +532,21 @@ main {
     text-decoration: none;
     color: black;
     text-transform: uppercase;
+}
+
+.treatments-main-image img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.treatments-main-desc, .treatments-main-desc ul {
+    padding: 0px 20px 0px 20px;
+}
+
+.treatments-main-desc p {
+    padding-top: 20px;
 }
 
 /* Footer Styles */
