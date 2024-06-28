@@ -493,6 +493,8 @@ main {
 
 .treatments-container {
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .treatment-list {
@@ -541,12 +543,31 @@ main {
     margin-top: 20px;
 }
 
+.treatments-main-desc {
+    display: flex;
+    flex-direction: column;
+}
+
 .treatments-main-desc, .treatments-main-desc ul {
     padding: 0px 20px 0px 20px;
 }
 
 .treatments-main-desc p {
     padding-top: 20px;
+}
+
+#book-an-appointment-button {
+    width: 70%;
+    padding: 10px 0px;
+    max-width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-self: center;
+}
+
+#book-an-appointment-button a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 /* Footer Styles */
