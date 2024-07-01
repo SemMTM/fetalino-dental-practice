@@ -273,10 +273,8 @@ main {
     z-index: 98;
     font-size: 22px;
     color: white;
-    margin-top: 230px;
-    margin-left: 15px;
-    padding-right: 30px;
-    max-width: 300px;
+    margin: 20px 15px 0px 15px;
+    max-width: 220px;
 }
 
 #treatments-button {
@@ -324,7 +322,6 @@ main {
 
 /* Team and practice section */
 #team-and-practice {
-    width: 90%;
     align-self: center;
     display: flex;
     flex-direction: column;
@@ -338,6 +335,11 @@ main {
     padding-bottom: 10px;
     margin-top: 20px;
     border-bottom: 1px solid #385E72;
+}
+
+#homepage-team, #homepage-practice {
+    width: 90%;
+    align-self: center;
 }
 
 #team-and-practice p {
@@ -578,6 +580,12 @@ main {
     color: #ffffff;
 }
 
+/* Our Patients Page */
+
+#hero-image-patients {
+    background: url("../images/pexels-olly-790744.jpg") no-repeat center center/cover;
+}
+
 /* Footer Styles */
 footer {
     background-color: #385E72;
@@ -693,7 +701,7 @@ footer table {
     }
 
     .team-desc, .practice-desc {
-        height: 200px;
+        height: 250px;
     }
 
     /* treatments page */
