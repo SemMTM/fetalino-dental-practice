@@ -540,6 +540,7 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 300px;
 }
 
 .treatments-main-image img {
@@ -547,6 +548,7 @@ main {
     width: 100%;
     height: auto;
     margin-top: 20px;
+    display: none;
 }
 
 .treatments-main-desc {
@@ -555,7 +557,7 @@ main {
 }
 
 .treatments-main-desc, .treatments-main-desc ul {
-    padding: 0px 20px 0px 20px;
+    padding: 20px 30px 20px 30px;
 }
 
 .treatments-main-desc p {
@@ -692,6 +694,11 @@ footer table {
 
     .team-desc, .practice-desc {
         height: 200px;
+    }
+
+    /* treatments page */
+    .treatments-main-image {
+        height: 400px;
     }
 
     /* Footer */
@@ -844,9 +851,17 @@ footer table {
         flex-wrap: wrap;
     }
 
+    .switch-order {
+        order: 1;
+    }
+
     .row50 {
         max-width: 50%;
         flex-basis: 50%;
+    }
+
+    .treatments-main-image {
+        height: auto;
     }
 
     .treatments-main-image img {
