@@ -320,7 +320,7 @@ main {
     height: 100%;
 }
 
-/* Team and practice section */
+/* Results and practice section */
 #team-and-practice {
     align-self: center;
     display: flex;
@@ -362,6 +362,10 @@ main {
 .find-out-more {
     margin-bottom: 20px;
     margin-top: 20px;
+}
+
+#resultsimg1 {
+    object-fit: cover;
 }
 
 /* Contact Section Styles */
@@ -732,7 +736,7 @@ footer table {
     }
 
     .team-desc, .practice-desc {
-        height: 250px;
+        height: 300px;
     }
 
     /* treatments page */
@@ -845,6 +849,10 @@ footer table {
 
     .practice-image, .team-image {
         height: 600px;
+    }
+
+    .team-desc, .practice-desc {
+        height: 250px;
     }
 
     /* Main - Certifications Secion */
