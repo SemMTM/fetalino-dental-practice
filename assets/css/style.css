@@ -38,6 +38,10 @@ p {
     font-size: 2px;
 }
 
+.map iframe {
+    width: 90%;
+}
+
 /* Class Styles */
 .block-panel {
     overflow: hidden;
@@ -362,10 +366,15 @@ main {
     justify-content: center;
 }
 
-#team-image {
+.team-image {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.block-panel img {
+    width: 100%;
+    object-fit: cover;
 }
 
 .find-out-more {
