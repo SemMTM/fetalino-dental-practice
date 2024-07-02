@@ -665,6 +665,28 @@ main {
     height: 100%;
 }
 
+/* Dental Plan Page */
+#hero-image-dental-plans {
+    background: url("../images/pexels-cedric-fauntleroy-4269362.jpg") no-repeat center center/cover;
+}
+
+.dental-plan-outer {
+    padding: 25px 25px;
+}
+
+.dental-plan-outer ul {
+    padding: 0px 25px;
+}
+
+.dental-plan-outer h4, h5 {
+    font-size: 25px;
+    color: #385E72;
+    padding: 15px 0px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    border-bottom: 1px solid #385E72;
+}
+
 /* Footer Styles */
 footer {
     background-color: #385E72;
