@@ -169,6 +169,10 @@ main {
     color: black;
 }
 
+#dropdown-inner a:hover {
+    border-bottom: 1px solid black ;
+}
+
 #home-dropdown:checked~div{
     display: block;
 }
@@ -326,6 +330,11 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+#team-and-practice a {
+    text-decoration: none;
+    color: white;
 }
 
 #team-and-practice h5 {
@@ -486,6 +495,10 @@ main {
 
 /* Treatments Page Styles */
 
+#hero-image-treatments {
+    background: url("../images/pexels-karolina-grabowska-6627536.jpg") no-repeat center center/cover;
+}
+
 .treatments-page-list h5 {
     font-size: 25px;
     color: #385E72;
@@ -620,6 +633,37 @@ main {
     align-self: center;
 }
 
+/* Our Practice page */
+#hero-image-practice {
+    background: url("../images/dental+surgery+design.jpeg") no-repeat center center/cover;
+}
+
+.practice-gallery-outer {
+    padding: 20px 12px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.practice-gallery h3 {
+    text-align: center;
+    color: #385E72;
+    margin: 25px 0px;
+    border-bottom: 1px solid #385E72;
+    font-size: 25px;
+}
+
+.practiceimg {
+    height: 285px;
+    margin: 8px 8px;
+}
+
+.practiceimg img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
 
 /* Footer Styles */
 footer {
@@ -742,6 +786,16 @@ footer table {
     /* treatments page */
     .treatments-main-image {
         height: 400px;
+    }
+
+    /* Our Practice Page */
+    
+    .practiceimg-container {
+        width: 50%;
+    }
+
+    .practiceimg {
+        height: 300px;
     }
 
     /* Footer */
@@ -870,11 +924,9 @@ footer table {
         font-size: 26px;
     }
 
-    /* Footer */
-    footer {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
+    /* Our Practice Page */
+    .practiceimg {
+        height: 330px;
     }
 
     /* Contact Page */
@@ -934,5 +986,12 @@ footer table {
         padding: 30px 10px;
         align-self: center;
         object-fit: contain;
+    }
+
+    /* Footer */
+    footer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
