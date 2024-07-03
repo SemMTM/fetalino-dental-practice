@@ -9,6 +9,7 @@ The site is targetted towards anyone in the Bristol area looking for dental serv
 ## Features
 
 ## Bugs
+After deployment of the project, the logo in the header was not loading. This was because I used an absolute file path instead of a relative one. 
 
 ## Credits
 
