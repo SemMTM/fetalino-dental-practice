@@ -11,6 +11,8 @@ The site is targetted towards anyone in the Bristol area looking for dental serv
 ## Bugs
 After deployment of the project, the logo in the header was not loading. This was because I used an absolute file path instead of a relative one. 
 
+Another image on the home page was not loading because the file name had some characters that did not match the exact file name. I just reselected the image and the file name corrected.
+
 ## Credits
 
 #### Content
