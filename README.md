@@ -1,6 +1,6 @@
 # Fetalino Dental Practice
 
-The Fetalino Dental Practice webiste is a site for a dental practice trying to showcase its available services to the public in the Bristol area.
+The Fetalino Dental Practice website for a dental practice trying to showcase its available services to the public in the Bristol area.
 
 Users of the site will be able to find all of the necessary information regarding the dental practice, such as: its location, opening times, available treatments, images of the practice, multiple ways to contact the practice, dental plans, images of other patient results, certifications etc. 
 
