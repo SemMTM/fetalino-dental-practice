@@ -37,11 +37,11 @@ Link: https://semmtm.github.io/Fetalino-Dental-Practice-/index.html
 
 - There is a quick select navigation for the most common things users of the site want to do. This improves the user experience.
 
-![alt text](Screenshot_4.png)
+![alt text](readme_images/Screenshot_4.png)
 
 - Both of these are responsive on screen sizes above 1024px.
 
-![top info and menu on smaller screen](Screenshot_6.png)
+![top info and menu on smaller screen](readme_images/Screenshot_19.png)
 
 ![Top menu and info on larger screen](assets/images/Screenshot_5.png)
 
@@ -80,16 +80,16 @@ Link: https://semmtm.github.io/Fetalino-Dental-Practice-/index.html
 - This section showcases the awards we have won as a practice.
 - The aim of showcasing these awards is to establish further credibility with the user. 
 
-![Our Awards section](Screenshot_10.png)
+![Our Awards section](readme_images/Screenshot_10.png)
 
 #### Book an apointment section
 
 - This is a form where the user can easily fill out their information to get a call back from the practice.
 - There is also an embeded google map and all relevent contact info if the user wants to call us or visit directly.
 
-![book an apointment section](Screenshot_11.png)
+![book an apointment section](readme_images/Screenshot_11.png)
 
-![map and contact info](Screenshot_12.png)
+![map and contact info](readme_images/Screenshot_12.png)s
 
 ### Footer
 
@@ -120,9 +120,9 @@ Link: https://semmtm.github.io/Fetalino-Dental-Practice-/index.html
 - The whole page is responsive for all screens.
 - Each treatment features a "Book an appointment" button at the bottom of each description for convenience. This button takes the user to a contact form.
 
-![treatments page small screen](Screenshot_17.png)
+![treatments page small screen](readme_images/Screenshot_17.png)
 
-![treatments page large screen](Screenshot_18.png)
+![treatments page large screen](readme_images/Screenshot_18.png)
 
 - There is a contact form at the bottom of the page with an embedded google map, contact info an opening hours.
 
@@ -199,4 +199,7 @@ Another image on the home page was not loading because the file name had some ch
 
 ## Deployment
 
-- The site was deployed to Github pages.
+- The site was deployed to Github pages. The steps to deploy the are as follows:
+- In the GitHub on the repository, navigate to 'settings'.
+- From the source section drop-down menu, select the Master Branch.
+- Once the master brnach has been selected, the page provided the link to the completed website.
