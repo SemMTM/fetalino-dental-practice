@@ -6,7 +6,7 @@ Users of the site will be able to find all of the necessary information regardin
 
 The site is targetted towards anyone in the Bristol area looking for dental services.
 
-Link: https://semmtm.github.io/Fetalino-Dental-Practice-/index.html
+Link: https://semmtm.github.io/fetalino-dental-practice/
 
 ![Responsive Design Screenshot](assets/images/Screenshot_31.png)
 
@@ -203,3 +203,4 @@ Another image on the home page was not loading because the file name had some ch
 - In the GitHub on the repository, navigate to 'settings'.
 - From the source section drop-down menu, select the Master Branch.
 - Once the master brnach has been selected, the page provided the link to the completed website.
+Live link: https://semmtm.github.io/fetalino-dental-practice/
